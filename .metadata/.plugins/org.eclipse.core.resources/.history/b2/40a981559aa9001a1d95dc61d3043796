@@ -1,0 +1,5 @@
+package compositebanca;
+
+public class NotImplementedException extends Exception {
+
+}

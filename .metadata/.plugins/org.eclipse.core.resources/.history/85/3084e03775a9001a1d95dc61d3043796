@@ -1,0 +1,5 @@
+package adapter.framework_achizitionat;
+
+public class ComandaBauturi {
+    private float sumaDePlataBar;
+}

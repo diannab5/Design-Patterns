@@ -1,0 +1,8 @@
+package clase;
+
+//clasa frunza
+public class Sectie {
+	private String nume;
+	
+	
+}

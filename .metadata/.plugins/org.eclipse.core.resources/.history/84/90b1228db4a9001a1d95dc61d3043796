@@ -1,0 +1,5 @@
+package strategyhotel;
+
+public interface ModVerificare {
+
+}

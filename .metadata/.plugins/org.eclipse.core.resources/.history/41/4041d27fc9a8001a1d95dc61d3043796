@@ -1,0 +1,40 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import clase.PachetTuristic;
+import tests.dubluri.PersoanaFake;
+import tests.dubluri.PersoanaStub;
+
+public class TestPachetTuristic {
+   //Cand utilizam dubluri nu depindem de referinta externa 
+	//test right
+	@Test
+	public void testAplicaDiscountStub() {
+		PersoanaStub stubPersoana=new PersoanaStub();
+		PachetTuristic pachet=new PachetTuristic(stubPersoana,"Manila",2500.00);
+	    pachet.aplicaDiscountVarstnici(10);
+	    assertEquals(2250.00,pachet.getPret(),0.01);
+	}
+	//aceeasi chestie ca cel de deasupra doar ca cu fake
+	@Test
+	public void testAplicaDiscountFake() {
+		PersoanaFake fakePersoana=new PersoanaFake();
+		fakePersoana.setValoareReturnataDeGetVarsta(65);
+		PachetTuristic pachet=new PachetTuristic(fakePersoana,"Manila",2500.00);
+	    pachet.aplicaDiscountVarstnici(10);
+	    assertEquals(2250.00,pachet.getPret(),0.01);
+	}
+	
+	@Test
+	public void testAplicaDiscountFakeCorectitudine() {
+		PersoanaFake fakePersoana=new PersoanaFake();
+		fakePersoana.setValoareReturnataDeGetVarsta(64);
+		PachetTuristic pachet=new PachetTuristic(fakePersoana,"Manila",2500.00);
+	    pachet.aplicaDiscountVarstnici(10);
+	    assertEquals(2500.00,pachet.getPret(),0.01);
+	}
+
+}

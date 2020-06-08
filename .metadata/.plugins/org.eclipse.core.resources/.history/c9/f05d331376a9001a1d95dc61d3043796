@@ -1,0 +1,15 @@
+package adapter;
+
+import adapter.framework_existent.ComandaBucatarie;
+
+public class ProgramMain {
+  public static void printareBonuriBucatarie(ComandaBucatarie comanda) {
+	  comanda.solicitareBon();
+  }
+	public static void main(String[] args) {
+		ComandaBucatarie comanda1=new ComandaBucatarie(400.56);
+		comanda1.solicitareBon();
+        
+	}
+
+}

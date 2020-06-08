@@ -1,0 +1,5 @@
+package flyweightpachete;
+
+public interface IPachetTuristic {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;S14_CTS/src/observerchain&apos;&#x0D;&#x0A;- Original project: &apos;S14_CTS&apos;&#x0D;&#x0A;- Destination element: &apos;S14_CTS/src/observerchain&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     observer.ProgramMain.java&#x0D;&#x0A;     observer.ClientFidel.java&#x0D;&#x0A;     observer.Restaurant.java&#x0D;&#x0A;     observer.Subiect.java&#x0D;&#x0A;     observer.Observer.java" description="Copy compilation units" destination="/src&lt;observerchain" element1="/src&lt;observer{ProgramMain.java" element2="/src&lt;observer{ClientFidel.java" element3="/src&lt;observer{Restaurant.java" element4="/src&lt;observer{Subiect.java" element5="/src&lt;observer{Observer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1590393812276" units="5" version="1.0"/>
+</session>

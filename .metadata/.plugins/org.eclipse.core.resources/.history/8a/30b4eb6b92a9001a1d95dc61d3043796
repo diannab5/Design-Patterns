@@ -1,0 +1,30 @@
+package clase;
+
+//clasa composite
+public class Departament implements IComposite {
+
+	@Override
+	public void descriere() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void adaugaNod(InterfataComunaNoduri nod) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stergereNod(InterfataComunaNoduri nod) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public InterfataComunaNoduri getChild(int pozitie) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

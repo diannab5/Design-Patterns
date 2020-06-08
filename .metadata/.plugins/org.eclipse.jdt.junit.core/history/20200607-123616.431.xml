@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestPersoana (2)" project="Seminar_Persoana_Teste" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.TestPersoana" time="0.001">
+    <testcase name="testVarstaBounderySuperior1900" classname="tests.TestPersoana" time="0.0"/>
+    <testcase name="testVarstaBounderySuperior2000" classname="tests.TestPersoana" time="0.001"/>
+    <testcase name="testCheckVarstaSuperior" classname="tests.TestPersoana" time="0.0"/>
+    <testcase name="testVarstaBounderyInferior1900" classname="tests.TestPersoana" time="0.0"/>
+    <testcase name="testVarstaBounderyInferior2000" classname="tests.TestPersoana" time="0.0"/>
+    <testcase name="testVarstaRight1900" classname="tests.TestPersoana" time="0.0"/>
+    <testcase name="testVarstaRight2000" classname="tests.TestPersoana" time="0.0"/>
+    <testcase name="testCheckVarstaError" classname="tests.TestPersoana" time="0.0"/>
+    <testcase name="testGetVarstaTimp" classname="tests.TestPersoana" time="0.0"/>
+  </testsuite>
+</testrun>

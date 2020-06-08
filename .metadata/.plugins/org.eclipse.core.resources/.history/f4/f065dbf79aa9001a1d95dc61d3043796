@@ -1,0 +1,36 @@
+package compositebanca;
+
+
+public class Filiala extends Sucursala {
+
+	public Filiala(String numeManager) {
+		super(numeManager);
+
+	}
+
+	@Override
+	public void adaugaSucursala(Sucursala sucursala) {
+		//throw new NotImplementedException();
+		
+	}
+
+	@Override
+	public void stergeSucursala(Sucursala sucursala) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Sucursala getSucursala(int pozitie) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void descriereSucursala() {
+		 System.out.println("\tDescriere filiala:");
+	        System.out.println("\tManager Filiala"+getNumeManager());
+		
+	}
+
+}

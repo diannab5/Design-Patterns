@@ -1,0 +1,14 @@
+package memento;
+
+
+public class PachetTuristic {
+	private double pretPachet;
+
+	public PachetTuristic(double pretPachet) {
+		super();
+		this.pretPachet = pretPachet;
+	}
+	public double getPretPachet() {
+		return pretPachet;
+	}
+}

@@ -1,0 +1,14 @@
+package adapter.framework_existent;
+
+public class ComandaBucatarie {
+      private float pretComanda;
+
+	public ComandaBucatarie(float pretComanda) {
+		super();
+		this.pretComanda = pretComanda;
+	}
+      
+      public void solicitareBon() {
+    	  System.out.println("Clientul are de plata "+ this.pretComanda);
+      }
+}

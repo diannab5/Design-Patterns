@@ -1,0 +1,5 @@
+package proxyhotel;
+
+public class IRezervare {
+	void anulareRezervare();
+}

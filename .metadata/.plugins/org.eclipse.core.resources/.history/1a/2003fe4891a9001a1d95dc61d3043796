@@ -1,0 +1,7 @@
+package clase;
+
+public class Sectie {
+	private String nume;
+	
+	
+}

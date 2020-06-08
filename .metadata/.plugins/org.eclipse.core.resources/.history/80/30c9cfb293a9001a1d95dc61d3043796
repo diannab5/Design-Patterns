@@ -1,0 +1,11 @@
+package clase;
+
+public class ProgramMain {
+
+	public static void main(String[] args) {
+		Departament departament1=new Departament("Financiar");
+		Departament departament2=new Departament("HR");
+
+	}
+
+}

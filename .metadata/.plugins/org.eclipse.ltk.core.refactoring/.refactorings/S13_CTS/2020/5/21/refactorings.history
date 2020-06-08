@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;composite.IComposite&apos; to &apos;InterfataComunaNoduri&apos;&#x0D;&#x0A;- Original project: &apos;S13_CTS&apos;&#x0D;&#x0A;- Original element: &apos;composite.IComposite&apos;&#x0D;&#x0A;- Renamed element: &apos;composite.InterfataComunaNoduri&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IComposite&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;composite{IComposite.java[IComposite" matchStrategy="1" name="InterfataComunaNoduri" qualified="false" references="true" similarDeclarations="false" stamp="1589787811384" textual="false" version="1.0"/>
+</session>

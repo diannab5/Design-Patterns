@@ -1,0 +1,6 @@
+package flyweightpachete;
+
+//interfata comuna pentru partea intrinseca(atribute comune) si partea extrinseca(atribute diferite)
+public interface IPachetTuristic {
+   public void descrierePachet();
+}

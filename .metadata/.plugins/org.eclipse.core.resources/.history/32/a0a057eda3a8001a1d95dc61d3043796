@@ -1,0 +1,17 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import clase.Persoana;
+
+public class TestPersoanaCorrectTest {
+  //cand avem boolean -assertTrue sau assertFalse
+	@Test
+	public void testCheckCNPConformance() {
+	Persoana pers=new Persoana("Alex","244656");
+    assertFalse("Metoda returneaza true chiar daca formatul CNP-ului nu este corect",pers.checkCNP());
+	}
+
+}

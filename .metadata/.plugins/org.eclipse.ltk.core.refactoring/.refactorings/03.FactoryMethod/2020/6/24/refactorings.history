@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;fabrici.FactorySupaLegumi&apos; to &apos;FactorySupaLegume&apos;&#x0D;&#x0A;- Original project: &apos;03.FactoryMethod&apos;&#x0D;&#x0A;- Original element: &apos;fabrici.FactorySupaLegumi&apos;&#x0D;&#x0A;- Renamed element: &apos;fabrici.FactorySupaLegume&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FactorySupaLegumi&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;fabrici{FactorySupaLegumi.java[FactorySupaLegumi" matchStrategy="1" name="FactorySupaLegume" qualified="false" references="true" similarDeclarations="false" stamp="1591555033240" textual="false" version="1.0"/>
+</session>

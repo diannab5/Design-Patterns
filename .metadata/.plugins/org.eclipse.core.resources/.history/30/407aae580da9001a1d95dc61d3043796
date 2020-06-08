@@ -1,0 +1,17 @@
+package clase;
+
+public class ProgramMain {
+
+	public static void main(String[] args) {
+    Rezervare rezervare=new Rezervare(true,true,false,false,"clasica");
+    System.out.println(rezervare.toString());
+    
+    Rezervare r2=new Rezervare();
+    r2.setAsezareLaGeam(true);
+    r2.setDecorareaMesei(true);
+    r2.setGenMuzica("rock");
+    System.out.println(r2.toString());
+    
+	}
+
+}

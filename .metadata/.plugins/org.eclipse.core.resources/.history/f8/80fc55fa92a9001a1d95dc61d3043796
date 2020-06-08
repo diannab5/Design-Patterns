@@ -1,0 +1,37 @@
+package clase;
+
+import java.util.List;
+
+//clasa composite
+public class Departament implements IComposite {
+	private String nume;
+	private List<InterfataComunaNoduri> lista;
+	
+	@Override
+	public void descriere() {
+		System.out.println("Departament "+this.nume+" contine subdepartamentele: ");
+		for(InterfataComunaNoduri nod:lista) {
+			nod.descriere();
+		}
+		
+	}
+
+	@Override
+	public void adaugaNod(InterfataComunaNoduri nod) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stergereNod(InterfataComunaNoduri nod) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public InterfataComunaNoduri getChild(int pozitie) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

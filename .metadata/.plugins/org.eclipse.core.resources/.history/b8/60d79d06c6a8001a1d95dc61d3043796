@@ -1,0 +1,29 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import clase.PachetTuristic;
+import tests.dubluri.PersoanaFake;
+import tests.dubluri.PersoanaStub;
+
+public class TestPachetTuristic {
+
+	@Test
+	public void testAplicaDiscountStub() {
+		PersoanaStub stubPersoana=new PersoanaStub();
+		PachetTuristic pachet=new PachetTuristic(stubPersoana,"Manila",2500.00);
+	    pachet.aplicaDiscountVarstnici(10);
+	    assertEquals(2250.00,pachet.getPret(),0.01);
+	}
+	
+	@Test
+	public void testAplicaDiscountFake() {
+		PersoanaFake fakePersoana=new PersoanaFake();
+		PachetTuristic pachet=new PachetTuristic(fakePersoana,"Manila",2500.00);
+	    pachet.aplicaDiscountVarstnici(10);
+	    assertEquals(2250.00,pachet.getPret(),0.01);
+	}
+
+}

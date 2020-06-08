@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestPersoanaCorrectTest" project="Seminar_Persoana_Teste" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.TestPersoanaCorrectTest" time="0.001">
+    <testcase name="testCheckCNPConformance" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+    <testcase name="testCheckCNPConformanceChar" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+    <testcase name="testCheckCNPIncorrectFormat" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+    <testcase name="testCheckCNPCorrectFormat" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+    <testcase name="checkCNPNull" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+    <testcase name="checkOrderVarsta" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+    <testcase name="checkVarstaCardinality0" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+    <testcase name="checkVarstaCardinality1" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+    <testcase name="testCheckCNPConformanceFirstChar" classname="tests.TestPersoanaCorrectTest" time="0.001"/>
+  </testsuite>
+</testrun>

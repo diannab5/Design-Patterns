@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SuitaCompleta" project="Seminar_Persoana_Teste" tests="23" started="23" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.SuitaCompleta" time="0.093">
+    <testsuite name="tests.TestPachetTuristic" time="0.001">
+      <testcase name="testAplicaDiscountFakeCorectitudine" classname="tests.TestPachetTuristic" time="0.001"/>
+      <testcase name="testAplicaDiscountFake" classname="tests.TestPachetTuristic" time="0.0"/>
+      <testcase name="testAplicaDiscountStub" classname="tests.TestPachetTuristic" time="0.0"/>
+    </testsuite>
+    <testsuite name="tests.TestPersoana" time="0.075">
+      <testcase name="testVarstaBounderySuperior1900" classname="tests.TestPersoana" time="0.053"/>
+      <testcase name="testVarstaBounderySuperior2000" classname="tests.TestPersoana" time="0.002"/>
+      <testcase name="testCheckVarstaSuperior" classname="tests.TestPersoana" time="0.0"/>
+      <testcase name="testVarstaBounderyInferior1900" classname="tests.TestPersoana" time="0.001"/>
+      <testcase name="testVarstaBounderyInferior2000" classname="tests.TestPersoana" time="0.002"/>
+      <testcase name="testVarstaRight1900" classname="tests.TestPersoana" time="0.001"/>
+      <testcase name="testVarstaRight2000" classname="tests.TestPersoana" time="0.0"/>
+      <testcase name="testCheckVarstaError" classname="tests.TestPersoana" time="0.006"/>
+      <testcase name="testGetVarstaTimp" classname="tests.TestPersoana" time="0.01"/>
+    </testsuite>
+    <testsuite name="tests.TestPersoanaCorrectTest" time="0.017">
+      <testcase name="testCheckCNPConformance" classname="tests.TestPersoanaCorrectTest" time="0.001"/>
+      <testcase name="testCheckCNPConformanceChar" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+      <testcase name="testCheckCNPIncorrectFormat" classname="tests.TestPersoanaCorrectTest" time="0.001"/>
+      <testcase name="testCheckCNPCorrectFormat" classname="tests.TestPersoanaCorrectTest" time="0.006"/>
+      <testcase name="checkCNPNull" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+      <testcase name="checkOrderVarsta" classname="tests.TestPersoanaCorrectTest" time="0.002"/>
+      <testcase name="checkTime" classname="tests.TestPersoanaCorrectTest" time="0.002"/>
+      <testcase name="checkVarstaCardinality0" classname="tests.TestPersoanaCorrectTest" time="0.001"/>
+      <testcase name="checkVarstaCardinality1" classname="tests.TestPersoanaCorrectTest" time="0.0"/>
+      <testcase name="checkVarstaCardinalityN" classname="tests.TestPersoanaCorrectTest" time="0.001"/>
+      <testcase name="testCheckCNPConformanceFirstChar" classname="tests.TestPersoanaCorrectTest" time="0.002"/>
+    </testsuite>
+  </testsuite>
+</testrun>

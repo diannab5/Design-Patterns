@@ -1,0 +1,23 @@
+package adapter;
+
+import adapter.framework_achizitionat.ComandaBar;
+import adapter.framework_existent.ComandaBucatarie;
+
+public class ProgramMain {
+  public static void printareBonuriBucatarie(ComandaBucatarie comanda) {
+	  comanda.solicitareBon();
+  }
+	public static void main(String[] args) {
+		ComandaBucatarie comanda1=new ComandaBucatarie(400);
+		printareBonuriBucatarie(comanda1);
+		
+		//nu recunoaste tipul asta de obiect , nu sunt compatibile tipurile
+		ComandaBar comandaBar1=new ComandaBar(340);
+		//printareBonuriBucatarie(comandaBar1);
+		
+		AdapterObiecteComandaBar comandaBarAdaptata=new AdapterObiecteComandaBar(comandaBar1);
+		printareBonuriBucatarie(comandaBarAdaptata);
+        
+	}
+
+}

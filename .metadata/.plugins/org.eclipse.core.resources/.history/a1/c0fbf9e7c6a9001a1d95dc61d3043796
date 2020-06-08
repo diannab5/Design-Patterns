@@ -1,0 +1,5 @@
+package templatebanca;
+
+public abstract class InteractiuneBancomat {
+
+}

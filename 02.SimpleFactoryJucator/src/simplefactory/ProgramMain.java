@@ -1,0 +1,21 @@
+package simplefactory;
+
+public class ProgramMain {
+
+	//ma folosesc de solid, ca sa nu ma repet
+	 public static void afisareDetalii(Jucator jucator) {
+		 System.out.println("Nume " +jucator.getNamePlayer() + " pozitie "+jucator.getPosition());
+	 }
+	public static void main(String[] args) {
+	 JucatorFactory factory=new JucatorFactory();
+	 Jucator jucator1=factory.creareJucator(TipJucator.ATACANT, "Marius");
+     afisareDetalii(jucator1);
+     Jucator jucator2=factory.creareJucator(TipJucator.FUNDAS, "Cristi");
+     afisareDetalii(jucator2);
+     
+     JucatorFactorySingleton fabrica=JucatorFactorySingleton.instanta();
+     Jucator jucatorDinSingleton=fabrica.creareJucator(TipJucator.FUNDAS, "Marcus");
+     afisareDetalii(jucatorDinSingleton);
+	}
+    
+}

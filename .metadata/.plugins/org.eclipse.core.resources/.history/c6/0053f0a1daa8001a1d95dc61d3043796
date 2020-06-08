@@ -1,0 +1,17 @@
+package simplefactory;
+
+public class Atacant implements Jucator {
+
+	@Override
+	public String getNamePlayer() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getPosition() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,32 @@
+package observerRestaurant;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Restaurant implements Subiect {
+	public List<Observer> clientiFideli;
+	
+	
+	public Restaurant() {
+		clientiFideli = new ArrayList();
+	}
+
+	@Override
+	public void adaugaObserver(Observer observer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void notificaObserveri(String mesaj) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eliminaObserver(Observer observer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

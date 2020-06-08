@@ -1,0 +1,10 @@
+package proxypachet;
+
+public class ProgramMain {
+	Persoana persoana=new Persoana("Popescu", 34);
+	PachetTransport pachetTransport=new PachetTransport(persoana);
+	pachetTransport.rezervaPachet();
+	
+	ProxyPachet pachetTransportProxy=new ProxyPachet(persoana);
+	pachetTransportProxy.rezervaPachet();
+}

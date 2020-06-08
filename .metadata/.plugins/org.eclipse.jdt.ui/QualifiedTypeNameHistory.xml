@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="ase.cts.s1.Zoo"/>
+<fullyQualifiedTypeName name="ase.cts.s1.Giraffe"/>
+<fullyQualifiedTypeName name="ase.cts.s1.Zebra"/>
+<fullyQualifiedTypeName name="ase.cts.s1.Cat"/>
+<fullyQualifiedTypeName name="ase.cts.s1.Pizza"/>
+<fullyQualifiedTypeName name="ase.cts.s1.Monkey"/>
+<fullyQualifiedTypeName name="acs.ase.clase.Persoana"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="acs.ase.clase.ExceptieCNP"/>
+<fullyQualifiedTypeName name="tests.dubluri.PersoanaStub"/>
+<fullyQualifiedTypeName name="acs.ase.clase.PachetTuristic"/>
+<fullyQualifiedTypeName name="acs.ase.clase.IPersoana"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories"/>
+<fullyQualifiedTypeName name="tests.dubluri.FakePersoana"/>
+<fullyQualifiedTypeName name="clase.PachetTuristic"/>
+<fullyQualifiedTypeName name="clase.AgentieTurism"/>
+<fullyQualifiedTypeName name="interfaces.PersoaneMajore"/>
+<fullyQualifiedTypeName name="interfaces.PersoaneMinore"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.IncludeCategory"/>
+<fullyQualifiedTypeName name="adapter.framework_existent.CreditDeNevoiPersonale"/>
+<fullyQualifiedTypeName name="adapter.framework_achizionat.AdapterCredit"/>
+<fullyQualifiedTypeName name="adapter.framework_existent.Credit"/>
+<fullyQualifiedTypeName name="adapter.framework_achizionat.CreditLeasing"/>
+<fullyQualifiedTypeName name="adapter.adapter_obiecte.AdapterCreditObiecte"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="observer.Observer"/>
+<fullyQualifiedTypeName name="clase.Persoana"/>
+<fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+</qualifiedTypeNameHistroy>

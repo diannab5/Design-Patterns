@@ -1,0 +1,23 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import clase.Persoana;
+
+public class TestPersoana {
+
+	//trebuie sa dam niste valori
+	//sa vedem daca ne returneaza varsta corecta
+	//Avem nevoie de un obj de tip persoana
+	//Putem sa facem si in setUp deoarece peste tot avem nevoie de o pers
+     //Fiecare apel o sa difere, deci chiar daca fac setUp, trebuie sa modific obj, deci mai bine il creez in cadrul testului
+	@Test
+	public void testVarstaRight() {
+	 Persoana pers=new Persoana("Diana","2860413382091");
+	 assertEquals("Varsta nu este cea asteptata!",34,pers.getVarsta());
+	
+	}
+
+}

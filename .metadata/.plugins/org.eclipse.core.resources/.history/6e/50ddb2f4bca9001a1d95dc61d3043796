@@ -1,0 +1,6 @@
+package state;
+
+public class Masa {
+	public void schimbareStare(Masa masa);
+	public void printStare(int nrMasa);
+}

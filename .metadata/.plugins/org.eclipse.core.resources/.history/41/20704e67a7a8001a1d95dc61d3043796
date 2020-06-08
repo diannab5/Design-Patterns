@@ -1,0 +1,25 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import clase.ExceptieCNP;
+import clase.Persoana;
+
+public class TestPersoanaCorrectTest {
+  //cand avem boolean -assertTrue sau assertFalse
+	//Verificare exceptii = expected ca parametru
+	@Test(expected=IllegalArgumentException.class)
+	public void testCheckCNPConformance() {
+	Persoana pers=new Persoana("Alex","244656");
+   pers.checkCNP();
+	}
+	
+	@Test(expected=ExceptieCNP.class)
+     public void testCheckCNPConformanceChar() {
+		Persoana pers=new Persoana("Maria","A87f59864372f");
+		pers.checkCNP();
+	}
+
+}

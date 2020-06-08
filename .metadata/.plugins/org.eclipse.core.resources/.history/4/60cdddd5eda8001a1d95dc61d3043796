@@ -1,0 +1,5 @@
+package fabrici;
+
+public interface FactorySupa {
+	public Supa creareSupa(float pret);
+}

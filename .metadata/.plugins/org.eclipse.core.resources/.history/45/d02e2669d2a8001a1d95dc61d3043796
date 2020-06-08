@@ -1,0 +1,16 @@
+package clase;
+
+public class ProgramMain {
+
+	public static void main(String[] args) {
+	  CasaDeMarcat casaDeMarcat=CasaDeMarcat.getInstance();
+	  casaDeMarcat.incaseazaNota(400);
+	  System.out.println("suma " + casaDeMarcat.getSuma());
+	  
+	  CasaDeMarcat casaDeMarcat1=CasaDeMarcat.getInstance();
+	  casaDeMarcat1.incaseazaNota(230.4);
+	  System.out.println("suma totala " + casaDeMarcat.getSuma());
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package clase;
+
+//clasa frunza
+public class Sectie implements InterfataComunaNoduri {
+	private String nume;
+
+	@Override
+	public void descriere() {
+		System.out.println("Sectia: "+this.nume);
+		
+	}
+	
+	
+}

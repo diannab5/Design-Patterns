@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;memento.PachetTuristic&apos; to &apos;MementoPachetTuristic&apos;&#x0D;&#x0A;- Original project: &apos;17.Memento&apos;&#x0D;&#x0A;- Original element: &apos;memento.PachetTuristic&apos;&#x0D;&#x0A;- Renamed element: &apos;memento.MementoPachetTuristic&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PachetTuristic&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;memento{PachetTuristic.java[PachetTuristic" matchStrategy="1" name="MementoPachetTuristic" qualified="false" references="true" similarDeclarations="false" stamp="1591647292833" textual="false" version="1.0"/>
+</session>
