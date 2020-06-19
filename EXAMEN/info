@@ -1,0 +1,27 @@
+S01 GrupuriEmail
+Teste: right, boundary, inverse , existence
+PatternsL composite, decorator
+S02 
+Teste: range, boundary, existence, cross-check
+DP: state, proxy
+S03
+DP: flyweight, strategy
+Teste: Right, boundary, exitence, cross check
+S04 TransportPublic
+Tste: range, exceptie,exitence, cross check
+Dp: chain, adapter
+S05 Trading
+Teste: Right, error condition, ordering, Cardinality = 1
+S6 Glovo
+Teste: boundery, error condition, cardinality=2,  existence
+Patterns:command, proxy
+
+S07 Paint
+Teste: right, error condition, ordering, cartinality=1
+Patterns: memento, adapter
+
+S08 Antivitirus
+Patterns: chain, decorator
+Teste: boundery, error contition, existence, cardinality=2
+S09 Messenger
+Teste: boundery, error condition, existence, cardinality=3
